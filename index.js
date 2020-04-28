@@ -9,4 +9,4 @@ app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public/index.html'
 // app.set('views', path.join(__dirname, 'views'))
 // app.set('view engine', 'ejs')
 // app.get('/FUNC-001', (req, res) => res.render('simple-lab', {code: func001, result: func001()}))
-// app.listen(PORT)
+app.listen(PORT)
