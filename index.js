@@ -5,7 +5,7 @@ const app = express()
 
 
 app.use(express.static(path.join(__dirname, 'public')))
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public/index.html')))
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'resources/index.html')))
 //   .set('views', path.join(__dirname, 'views'))
 //   .set('view engine', 'ejs')
 //   .get('/', (req, res) => res.render('pages/index'))
