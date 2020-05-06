@@ -10,4 +10,5 @@ router.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public/index.ht
 router.get('/frmw-003/', (req, res) => res.sendFile(path.join(__dirname, 'public/frmw-003/dist/index.html')))
 router.get('/frmw-004/', (req, res) => res.sendFile(path.join(__dirname, 'public/frmw-004/dist/index.html')))
 router.get('/frmw-005/', (req, res) => res.sendFile(path.join(__dirname, 'public/frmw-005/dist/index.html')))
+router.get('/frmw-006/', (req, res) => res.sendFile(path.join(__dirname, 'public/frmw-006/index.html')))
 app.listen(PORT)
