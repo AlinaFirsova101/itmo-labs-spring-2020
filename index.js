@@ -12,5 +12,5 @@ router.get('/frmw-004/', (req, res) => res.sendFile(path.join(__dirname, 'public
 router.get('/frmw-005/', (req, res) => res.sendFile(path.join(__dirname, 'public/frmw-005/dist/index.html')))
 router.get('/frmw-006/', (req, res) => res.sendFile(path.join(__dirname, 'public/frmw-006/index.html')))
 router.get('/frmw-007/', (req, res) => res.sendFile(path.join(__dirname, 'public/frmw-007/docs/index.html')))
-router.get('/lab/', (req, res) => res.sendFile(path.join(__dirname, 'public/lab/index.html')))
+router.get('/youtube/', (req, res) => res.sendFile(path.join(__dirname, 'public/youtube/index.html')))
 app.listen(PORT)
